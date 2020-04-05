@@ -22,7 +22,7 @@
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
 		<sonar.host.url>http://13.233.206.64:9000/</sonar.host.url>
-		<sonar.login>f3ef46fbf3279d3922156cf598e3b5d96e0e8d6c</sonar.login>
+		
 
 		<sonar.login>admin</sonar.login>
 		<sonar.password>admin</sonar.password>
@@ -101,13 +101,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://13.233.138.170:8081/repository/maven-releases/</url>
+	      <url>http://13.233.129.249:8081/repository/maven-releases/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://13.233.138.170:8081/repository/maven-snapshots/</url>
+	      <url>http://13.233.129.249:8081/repository/maven-snapshots/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
